@@ -1,6 +1,10 @@
 # QRC-Tools
 Visual Studio Code extension, simplifying use of the QT Resource Collection Files (.qrc) by providing command interface.
 
+> #### The extension is just starting to get created and planned - it does not work now (and won't for some time)
+
+> #### This is NOT an official tool by the Qt Company
+
 ### Table of contents:
 1. [QRC language configuration](#qrc-language-configuration)
 2. [Add commands](#add-commands)
