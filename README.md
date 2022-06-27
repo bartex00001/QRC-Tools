@@ -5,6 +5,8 @@ Visual Studio Code extension, simplifying use of the QT Resource Collection File
 
 > #### This is NOT an official tool by the Qt Company
 
+<br>
+
 ### Table of contents:
 1. [QRC language configuration](#qrc-language-configuration)
 2. [Add commands](#add-commands)
@@ -20,7 +22,15 @@ Visual Studio Code extension, simplifying use of the QT Resource Collection File
 <br>
 
 # QRC language configuration
-// WIP
+As QRC files are written in XML, they will be treated as such by vsc.
+
+Additional support for QRC files isn't planned as my goal is to provide an interface for editing them.
+
+Files with `.qrc` extension will receive an icon! 'Cause who does not love some colorfull shapes?  
+The variant will be chosen based on vsc's theme.
+
+(They will, at some point, be visible here)
+
 
 <br>
 <br>
