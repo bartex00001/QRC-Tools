@@ -1,4 +1,5 @@
 # QRC-Tools
+
 Visual Studio Code extension, simplifying use of the QT Resource Collection Files (.qrc) by providing command interface.
 
 > #### The extension is just starting to get created and planned - it does not work now (and won't for some time)
@@ -8,6 +9,7 @@ Visual Studio Code extension, simplifying use of the QT Resource Collection File
 <br>
 
 ### Table of contents:
+
 1. [QRC language configuration](#qrc-language-configuration)
 2. [Add commands](#add-commands)
     - [**`Qrc: add this`**](#qrc-add-this)
@@ -22,6 +24,7 @@ Visual Studio Code extension, simplifying use of the QT Resource Collection File
 <br>
 
 # QRC language configuration
+
 As QRC files are written in XML, they will be treated as such by vsc.
 
 Additional support for QRC files isn't planned as my goal is to provide an interface for editing them.
@@ -40,12 +43,16 @@ The variant will be chosen based on vsc's theme.
 <br>
 
 ## **`Qrc: add this`**
-// WIP
+
+Adds currently opened file to .qrc file, chosen from dropdown.  
+// GIF will be embeded here to provide usage example when the feature is implemented.
 
 <br>
 
 ## **`Qrc: add files`**
-// WIP
+
+Adds chosen files to selected .qrc file. Files will be picked in systems file explorer.  
+// GIF will be embeded here to provide usage example when the feature is implemented.
 
 <br>
 <br>
@@ -55,12 +62,16 @@ The variant will be chosen based on vsc's theme.
 <br>
 
 ## **`Qrc: remove this`**
-// WIP
+
+Removes currently opened file from *all* .qrc files. Modified .qrc files will be listed in a message.  
+// GIF will be embeded here to provide usage example when the feature is implemented.
 
 <br>
 
 ## **`Qrc: remove files`**
-// WIP
+Removes selected files from *all* .qrc files. Files will be picked in systems file explorer.  
+Modified .qrc files will be listed in a message.  
+// GIF will be embeded here to provide usage example when the feature is implemented.
 
 <br>
 <br>
@@ -70,9 +81,16 @@ The variant will be chosen based on vsc's theme.
 <br>
 
 ## **`Qrc: look up this`**
-// WIP
+
+Shows a message listing all .qrc files mentionning currently opened file.  
+// GIF will be embeded here to provide usage example when the feature is implemented.
 
 <br>
 
 ## **`Qrc: look up this and go`**
-// WIP
+
+Jumps to a .qrc file mentioning currently opened file.  
+As most files aren't included bymore than one .qrc file, no list depicting .qrc files will be provided.  
+// GIF will be embeded here to provide usage example when the feature is implemented.
+
+
